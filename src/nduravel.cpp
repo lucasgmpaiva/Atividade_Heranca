@@ -5,6 +5,11 @@ N_Duravel::N_Duravel(){
 
 }
 
+N_Duravel::N_Duravel(string validade, string genero){
+	this->validade = validade;
+	this->genero = genero;
+}
+
 N_Duravel::~N_Duravel(){
 
 }
