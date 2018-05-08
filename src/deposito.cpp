@@ -6,8 +6,6 @@ Deposito::Deposito(){
 }
 
 Deposito::~Deposito(){
-	this->vetor.clear();
-	this->vetor.~vector();
 }
 
 void Deposito::adicionarProduto(Produto p){
