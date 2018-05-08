@@ -1,7 +1,6 @@
 #ifndef N_DURAVEL_H
 #define N_DURAVEL_H
 
-#include <string>
 #include "produto.hpp"
 
 class N_Duravel: public Produto{
