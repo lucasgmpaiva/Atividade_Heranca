@@ -1,5 +1,6 @@
 #include "../include/refrigerante.hpp"
 
+
 Refrigerante::Refrigerante(){
 
 }
