@@ -1,11 +1,11 @@
 #include <iostream>
 #include "../include/nduravel.hpp"
 
-Nao_duravel::N_Duravel(){
+N_Duravel::N_Duravel(){
 
 }
 
-Nao_duravel::~N_Duravel(){
+N_Duravel::~N_Duravel(){
 
 }
 
