@@ -4,7 +4,7 @@
 #include <string>
 #include "produto.hpp"
 
-class N_Duravel{
+class N_Duravel: public Produto{
 
 	protected:
 		string validade;

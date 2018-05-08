@@ -4,7 +4,7 @@
 #include <string>
 #include "produto.hpp"
 
-class Duravel public Produto{
+class Duravel: public Produto{
 		
 	protected:
 		string material;
