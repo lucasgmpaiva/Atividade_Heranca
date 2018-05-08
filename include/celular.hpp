@@ -8,7 +8,7 @@ class Celular: public Duravel{
 		string sistemaOperacional;
 
 	public:
-		Celular(string sistemaOperacional);
+		Celular(string nome, double preco, string marca, string descricao, string dataFabricacao, string material, string durabilidade, string sistemaOperacional);
 		~Celular();
 		string getSistemaOperacional();
 		void setSistemaOperacional(string sistemaOperacional);

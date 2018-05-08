@@ -7,7 +7,7 @@ class Pizza: public N_Duravel{
 		char tamanho;
 
 	public:
-		Pizza(char tamanho);
+		Pizza(string nome, double preco, string marca, string descricao, string dataFabricacao, string validade, string genero, char tamanho);
 		~Pizza();
 		
 		char getTamanho();

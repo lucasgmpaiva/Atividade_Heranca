@@ -5,14 +5,6 @@ Produto::Produto(){
 
 }
 
-Produto::Produto(string nome, double preco, string marca, string descricao, string dataFabricacao){
-	this->nome = nome;
-	this->preco = preco;
-	this->marca = marca;
-	this->descricao = descricao;
-	this->dataFabricacao = dataFabricacao;
-}
-
 Produto::~Produto(){
 
 }

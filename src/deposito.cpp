@@ -26,7 +26,7 @@ void Deposito::removerProduto(string nome){
 }
 
 void Deposito::quantidadeProdutos(){
-	cout << "Existem " << this->vetor.size() << " produto(s) no depósito." << endl;
+	cout << "Existem " << this->vetor.size() << " produtos no depósito." << endl;
 }
 
 void Deposito::produtoMaisCaro(){
@@ -35,7 +35,7 @@ void Deposito::produtoMaisCaro(){
 		for(int i=0; i<(int)this->vetor.size(); i++){
 			if(this->vetor[max].getPreco() <= this->vetor[i].getPreco()){max = i;}
 		}
-		cout << "Produto com max preço: " << this->vetor[max].getNome();
+		cout << "Produto mais caro: " << this->vetor[max].getNome();
 		cout << " -> " << this->vetor[max].getPreco() << endl;
 		return;
 	}else{

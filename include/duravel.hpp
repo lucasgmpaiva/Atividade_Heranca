@@ -12,7 +12,6 @@ class Duravel: public Produto{
 
 	public:
 		Duravel();
-		Duravel(string material, string durabilidade);
 		~Duravel();
 		string getMaterial();
 		void setMaterial(string material);

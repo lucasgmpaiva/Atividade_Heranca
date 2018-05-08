@@ -8,7 +8,7 @@ class Chocolate: public N_Duravel{
 		string tipo;
 
 	public:
-		Chocolate(string tipo);
+		Chocolate(string nome, double preco, string marca, string descricao, string dataFabricacao, string validade, string genero, string tipo);
 		~Chocolate();
 		string getTipo();
 		void setTipo(string tipo);

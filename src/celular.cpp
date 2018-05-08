@@ -1,6 +1,13 @@
 #include "../include/celular.hpp"
 
-Celular::Celular(string sistemaOperacional){
+Celular::Celular(string nome, double preco, string marca, string descricao, string dataFabricacao, string material, string durabilidade, string sistemaOperacional){
+	this->nome = nome;
+	this->preco = preco;
+	this->marca = marca;
+	this->descricao = descricao;
+	this->dataFabricacao = dataFabricacao;
+	this->material = material;
+	this->durabilidade = durabilidade;
 	this->sistemaOperacional = sistemaOperacional;
 }
 

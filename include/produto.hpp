@@ -15,7 +15,6 @@ class Produto{
 
 	public:
 		Produto();
-		Produto(string nome, double preco, string marca, string descricao, string dataFabricacao);
 		~Produto();
 		string getNome();
 		void setNome(string nome);

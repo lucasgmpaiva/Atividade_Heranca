@@ -7,10 +7,10 @@ class Carro: public Duravel{
 	protected:
 		int qntdPortas;
 		string cor;
-		string placa
+		string placa;
 
 	public:
-		Carro(int qntdPortas, string cor, string placa);
+		Carro(string nome, double preco, string marca, string descricao, string dataFabricacao, string material, string durabilidade, int qntdPortas, string cor, string placa);
 		~Carro();
 		int getQntdPortas();
 		void setQntdPortas(int qntdPortas);

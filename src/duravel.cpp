@@ -5,11 +5,6 @@ Duravel::Duravel(){
 
 }
 
-Duravel::Duravel(string material, string durabilidade){
-	this->material = material;
-	this->durabilidade = durabilidade;
-}
-
 Duravel::~Duravel(){
 
 }

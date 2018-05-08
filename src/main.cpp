@@ -34,7 +34,7 @@ int main(){
 
 	produtos.produtoMaisCaro();
 
-	produtos.remProduto("Prisma");
+	produtos.removerProduto("Prisma");
 
 	produtos.produtoMaisCaro();
 }

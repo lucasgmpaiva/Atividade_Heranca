@@ -9,8 +9,7 @@ class Livro: public Duravel{
 		int qntdPaginas;
 
 	public:
-		Livro();
-		Livro(string autor, int qntdPaginas);
+		Livro(string nome, double preco, string marca, string descricao, string dataFabricacao, string material, string durabilidade, string autor, int qntdPaginas);
 		~Livro();
 		string getAutor();
 		void setAutor(string autor);

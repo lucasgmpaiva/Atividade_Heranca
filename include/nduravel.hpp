@@ -11,7 +11,6 @@ class N_Duravel: public Produto{
 
 	public:
 		N_Duravel();
-		N_Duravel(string validade, string genero);
 		~N_Duravel();
 		string getValidade();
 		void setValidade(string validade);
